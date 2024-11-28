@@ -26,9 +26,9 @@ def index():
 def predict_genre(text):
     client = Client("soothsayer1221/Music-Genre-Classifier")
     result = client.predict(
-		lyrics="Hello!!",
+		lyrics=text,
 		api_name="/predict"
-    )
+    ).json()
     return result
     
 
