@@ -28,7 +28,7 @@ def predict_genre(text):
     result = client.predict(
 		lyrics=text,
 		api_name="/predict"
-    ).json()
+    )
     return result
     
 
