@@ -1,0 +1,4 @@
+
+Add GEneres : blues , country, pop
+
+after scraping, if there is duplicate data in terms of name of the song and lyrics , merge the genres togethter 
