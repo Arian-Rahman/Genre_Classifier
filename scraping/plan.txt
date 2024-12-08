@@ -1,0 +1,6 @@
+
+x 1.Add GEneres : blues , country, pop
+
+2. after scraping, if there is duplicate data in terms of name of the song and lyrics , merge the genres togethter 
+
+3. Update the scraper for file folder location changes 
